@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PONG - By Sammy Freitas</title>
+
+    <link href="./css/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <script type="text/javascript" src="./js/script.js"></script>
+	<script src="./js/a076d05399.js"></script>
+	
+	
+</head>
+
+<body onload="preparaJogo()">
+    <div id="menu-direito">
+    	<br><br><br>
+        <ul list-style-type=none> 
+            <li><a href="https://www.linkedin.com/in/samantha-s-freitas" class="fa fa-linkedin" target="_Blank"></a></li>
+            <li><a href="https://githb.com/sammyfreitas/" class="fa fa-github" target="_Blank"></a></li>
+            <li><a href="https://twitter.com/sammyfreitas" class="fa fa-twitter" target="_Blank"></a></li>
+            <li><a href="https://www.instagram.com/sammyfreitas/" class="fa fa-instagram" target="_Blank"></a></li>
+            <li><a href="https://web.facebook.com/sammyfreitas78/" class="fa fa-facebook-f" target="_Blank"></a></li>
+            <li><a href="https://discord.com/channels/999307907160088607/999307907160088609" class="fab fa-discord" target="_Blank"></a></li>
+			<li><a href="https://sammyfreitas.github.io/portfolioSite/" class="fa fa-globe" target="_Blank"></a></li>
+        </ul>
+		
+		    <ul list-style-type=none> 
+				<li><a href="https://sammyfreitas.github.io/JogoDaVelha/" class="fas fa-chess-board" target="_Blank"></a></li>
+				<li><a href="https://sammyfreitas.github.io/GameMario/" class="fas fa-puzzle-piece" target="_Blank"></a></li>
+				<li><a href="https://sammyfreitas.github.io/SnakeGame/" class="fas fa-dragon" target="_Blank"></a></li>
+				<li><a href="https://sammyfreitas.github.io/pong/" class="fas fa-baseball-ball" target="_Blank"></a></li>
+				<li><a href="https://sammyfreitas.github.io/toupeira/" class="fas fa-hippo" target="_Blank"></a></li>
+        </ul>
+    </div>
+	
+	<div id="painel">
+		<label>&nbsp&nbsp&nbsp&nbsp&nbspPONG! Designed by Sammy Freitas</label>
+		<label> - Dificuldade</label>
+		<input type="text" id="pnDif" value="1">
+		<label>Pontos</label>
+		<input type="text" id="pnPts" value="0">
+		<input type="button" value="Iniciar" id="pnIniciar" onclick="iniciaJogo()">
+
+	</div>
+	
+	<div id="campo" style="position:absolute;top:40px;left:20px">
+		<div id="bola" style="position:absolute;top:240px;left:470px"></div>
+		<div id="jog1" style="position:absolute;top:180px;left:20px"></div>
+		<div id="jog2" style="position:absolute;top:180px;left:920px"></div>
+	</div>
+		<ul class="rodape"><strong>Jogo Desenvolvido para Treinar o Javascript aprendido nos cursos:</strong>
+			<li>Desenvolvedor Front-End do SENAI,</li>
+			<li>Bootcamp Javascript Game Developer da DIO</li>
+		</ul>
+
+</body>
+
+</html>
